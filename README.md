@@ -2,6 +2,15 @@
 
 A frontend AI engineering capstone built as part of an internship program. The app demonstrates modern web development practices with a focus on integrating large language models into a polished user experience.
 
+## Features
+
+- **Streaming AI chat** — real-time LLM responses via the Vercel AI SDK
+- **Server-side API calls** — API keys never exposed to the browser
+- **Responsive UI** — mobile-first layout with Tailwind CSS
+- **Accessible interactions** — keyboard navigation, focus states, and semantic HTML
+- **Robust UX states** — loading, error, and empty states for every AI interaction
+- **Test coverage** — unit tests (Vitest) and end-to-end tests (Playwright) for critical flows
+
 ## Tech Stack
 
 | Layer | Technology |
