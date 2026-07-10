@@ -102,3 +102,8 @@ pnpm lint         # ESLint
 pnpm test         # Vitest unit tests
 pnpm test:e2e     # Playwright E2E tests
 ```
+
+## Rules Learned from AI Workflow Drill (FE-03)
+- Name known API pitfalls explicitly in prompts (e.g. useSyncExternalStore snapshot stability) — do not assume the model avoids subtle bugs unless warned.
+- Always request a test-writing and test-running step; untested AI output can look complete while still failing basic validation cases.
+- Specify accessibility attributes explicitly (aria-invalid, aria-describedby, focus states) — correct label wiring alone doesn't guarantee full accessibility.
